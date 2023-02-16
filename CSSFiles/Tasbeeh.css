@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+body
+{
+    min-height: 100vh;
+    background: linear-gradient(#200016,#10001f);
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+    cursor: pointer;
+}
+header
+{
+    position: fixed;
+    display: flex;
+    width: 95%;
+    margin:30px;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+header .Logo
+{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li
+{
+    margin-left: 30px;
+}
+
+header ul li a
+{
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+header ul li a:hover
+{
+    background: #fff;
+    color: #2b1055;
+}
+
+div {
+    background-color: rgb(41, 39, 39);
+    border-radius: 15px;
+    font-size: 23px;
+    color:#fff;
+    position: relative;
+    height: auto;
+    margin: auto;
+    direction: rtl;
+    line-height: 60px;
+}
+.wrapper{
+    height: 170px; 
+    min-width: 100px;
+    max-width: 135px;
+    width: 135px;
+    background-color: rgb(221, 221, 221);
+    display: block;
+    border-radius: 12px;
+    color:rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    margin-top:0px;
+}
+
+.wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+}
+
+.num,.num1,.num2,.num3,.num4,.num5,.num6{
+    font-size: 50px;
+    display: block;
+    pointer-events: none;
+}
+
+.plus,.plus1,.plus2,.plus3,.plus4,.plus5,.plus6
+{
+    background: none;
+    border: none;
+    width: 102.25%;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: auto;
+    cursor: pointer;
+}
+
+h5 {
+    color:white;
+    padding-left: 60px;
+}
+
+.wrapper button {
+    height: 100%;
+    padding-bottom: 50%;
+    
+}
+
+p{
+    direction: rtl;
+    font-size:17px ;
+}
+
+.savebtn,.savebtn1,.savebtn2,.savebtn3,.savebtn4,.savebtn5,.savebtn6 {
+    height: 85px;
+    width: 85px;
+    background-color: rgb(41, 39, 39);
+    border-radius: 55px;
+    border: 0px;
+    cursor: pointer;
+    left: 10%;
+}
+
+.resetbtn,.resetbtn1,.resetbtn2,.resetbtn3,.resetbtn4,.resetbtn5,.resetbtn6 {
+    height: 85px;
+    width: 85px;
+    background-color: rgb(41, 39, 39);
+    border-radius: 55px;
+    border: 0px;
+    cursor: pointer;
+    left: 10%;
+}
+

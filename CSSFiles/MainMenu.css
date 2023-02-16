@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+}
+
+body
+{
+    min-height: 100vh;
+    background: linear-gradient(#200016,#10001f);
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+    cursor: pointer;
+}
+header
+{
+    position: fixed;
+    display: flex;
+    width: 95%;
+    margin:30px;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .Logo
+{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li
+{
+    margin-left: 30px;
+}
+
+header ul li a
+{
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+header ul li a:hover
+{
+    background: #fff;
+    color: #2b1055;
+}
+
+.main
+{
+    position: relative;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main::after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.main img
+{
+    position: absolute;
+    width:100%;
+    height:100vh;
+    object-fit: cover;
+}
+
+#moon
+{
+    mix-blend-mode: screen;
+    transform: translateY(80px);
+}
+
+.IslamSite 
+{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    transform: translateY(-140px);
+}
+
+.content
+{
+    color:#fff;
+    padding: 30px;
+}
+
+.content h2
+{
+    font-size: 30px;
+    direction: rtl;
+    margin:20px;
+}
+
+.content p
+{
+    direction: rtl;
+    margin:20px;
+}
+
+.river {
+    top:0px;
+}
+
+h4 {
+    color:white;
+    padding-left: 60px;
+}
+
+p{
+    color:white;
+    direction: rtl;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
